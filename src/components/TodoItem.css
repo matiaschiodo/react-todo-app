@@ -1,0 +1,32 @@
+.TodoItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-color: #17274e;
+    border-radius: 10px;
+    margin: 10px 8%;
+    padding: 0 10px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.TodoCheck {
+    cursor: pointer;
+}
+.deleteTodo:hover {
+    cursor: pointer;
+    color: red;
+}
+.IconCheck-active {
+    color: rgb(29, 165, 29);
+}
+.TodoItem-completed {
+    text-decoration: line-through;
+    color: #515666;
+}
+p {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
