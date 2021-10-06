@@ -1,0 +1,48 @@
+textarea {
+    background-color: #010f33;
+    margin: 10px auto 5px;
+    width: 90%;
+    height: 150px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0;
+    resize: none;
+    color: #ffffff;
+}
+button {
+    border: none;
+    height: 50px;
+    width: 30%;
+    margin: 0 20px;
+    border-radius: 20px;
+}
+button:hover {
+    cursor: pointer;
+}
+.buttonCancel {
+    background-color: #c0392b;
+}
+.buttonSubmit {
+    background-color: #27ae60;
+}
+
+@media (max-width: 1080px) {
+    textarea {
+        height: 200px;
+    }
+    button {
+        height: 75px;
+        width: 35%;
+    }
+}
+@media (max-width: 800px) {
+    textarea {
+        height: 150px;
+    }
+    button {
+        height: 75px;
+        width: 30%;
+    }
+}

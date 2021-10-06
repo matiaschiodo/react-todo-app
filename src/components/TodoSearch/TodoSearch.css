@@ -1,4 +1,5 @@
 .TodoSearch {
+    display: block;
     width: 90%;
     border: none;
     text-align: center;
@@ -6,6 +7,6 @@
     border-radius: 10px;
     background-color: #010f33;
     color: #ffffff;
-    margin: 10px 5%;
+    margin: 10px auto;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
