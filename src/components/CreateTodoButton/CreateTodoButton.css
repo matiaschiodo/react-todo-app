@@ -21,3 +21,8 @@
 .TodoButton:hover {
     cursor: pointer;
 }
+@media (max-width: 800px) {
+    .TodoButton {
+        bottom: 95px;
+    }
+}

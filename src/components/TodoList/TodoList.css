@@ -1,4 +1,28 @@
+.sectionList {
+    overflow: auto;
+    height: 500px;
+}
+
 .TodoList {
     list-style: none;
     padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #101c3a;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #172a57;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #1b3163;
+    cursor: pointer;
 }

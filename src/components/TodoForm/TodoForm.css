@@ -1,6 +1,6 @@
 textarea {
     background-color: #010f33;
-    margin: 10px auto 5px;
+    margin: 10px auto 0;
     width: 90%;
     height: 150px;
     border: none;
@@ -15,7 +15,7 @@ button {
     border: none;
     height: 50px;
     width: 30%;
-    margin: 0 20px;
+    margin: 10px 20px;
     border-radius: 20px;
 }
 button:hover {

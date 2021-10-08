@@ -9,6 +9,7 @@ import { TodoForm } from "../TodoForm/TodoForm";
 import { CreateTodoButton } from '../CreateTodoButton/CreateTodoButton';
 import { Modal } from '../Modal/Modal';
 import { LoadingTodos } from '../LoadingTodos/LoadingTodos';
+import { Footer } from '../Footer/Footer'
 
 function AppUI() {
     const { error, 
@@ -39,7 +40,7 @@ function AppUI() {
     
                 {searchedTodos.map(todo => (
                     <TodoItem
-                        key={todo.text}
+                        key={todo.index}
                         text={todo.text}
                         completed={todo.completed}
                         onComplete={() => completeTodo(todo.text)}
@@ -57,6 +58,8 @@ function AppUI() {
             <CreateTodoButton 
                 setOpenModal={setOpenModal}
             />
+
+            <Footer/>
       </div>
     );
 };
