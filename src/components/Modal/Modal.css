@@ -22,6 +22,7 @@
   transform:translateY(-50%);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   animation: mymove 0.3s;
+  transition: .3s;
 }
 @media (max-width: 1080px) {
   .modal {

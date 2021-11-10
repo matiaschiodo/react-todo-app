@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Modal.css'
-import { TodoContext } from '../TodoContext'
 
-function Modal({ children }) {
-  const { openModal } = React.useContext(TodoContext);
+function Modal({ children, openModal }) {
   let classNames;
   if(openModal) {
     classNames = "modal open-modal"

@@ -9,6 +9,8 @@ All tasks are saved into browser's local storage only.
 
 - Create React App
 - React Components
+- Render Props
+- High Order Components
 - ReactDOM and Reactivity
 - Lists and Keys, Forms
 - React Hooks: useEffect, useState, useContext
