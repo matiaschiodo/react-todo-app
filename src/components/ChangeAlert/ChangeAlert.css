@@ -1,0 +1,67 @@
+.ChangeAlert {
+    background: #1e1e1f50;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0; 
+    bottom: 0;
+    z-index: 2;
+}
+.ChangeAlertContainer {
+    background-color: #172a57;
+    height: auto;
+    width: 90%;
+    max-width: 40%;
+    max-height: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: table;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%; 
+    -webkit-transform:translateY(-50%);
+    -moz-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    animation: mymove 0.3s;
+    transition: .3s;
+}
+.ChangeAlert p {
+    text-align: center;
+    margin: 10px 0;
+    max-width: 100%;
+}
+.ChangeAlertButton {
+    border: none;
+    height: 50px;
+    width: 90%;
+    margin: 10px 10px;
+    border-radius: 20px;
+    background-color: #121f3d;
+    color: #ffffff;
+}
+
+.open-modal {
+    animation: mymove 0.3s;
+}
+
+@keyframes mymove {
+    0%   {top: -100px;}
+    100% {top: 50%;}
+}
